@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184F339A2404EBE800F078F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F33992404EBE800F078F5 /* AppDelegate.swift */; };
+		184F339C2404EBE800F078F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F339B2404EBE800F078F5 /* SceneDelegate.swift */; };
+		184F339E2404EBE800F078F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F339D2404EBE800F078F5 /* ViewController.swift */; };
+		184F33A12404EBE800F078F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F339F2404EBE800F078F5 /* Main.storyboard */; };
+		184F33A32404EBEA00F078F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184F33A22404EBEA00F078F5 /* Assets.xcassets */; };
+		184F33A62404EBEA00F078F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184F33A42404EBEA00F078F5 /* LaunchScreen.storyboard */; };
+		184F33B12404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F33B02404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.swift */; };
+		184F33BC2404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F33BB2404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.swift */; };
+		184F33CA2404EE4100F078F5 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F33C92404EE4100F078F5 /* CollectionViewCell.swift */; };
+		184F33CE2404FD2100F078F5 /* GSImageViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F33CD2404FD2100F078F5 /* GSImageViewerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184F33AD2404EBEA00F078F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184F338E2404EBE800F078F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184F33952404EBE800F078F5;
+			remoteInfo = ZoomInZoomOutImageView;
+		};
+		184F33B82404EBEA00F078F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184F338E2404EBE800F078F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184F33952404EBE800F078F5;
+			remoteInfo = ZoomInZoomOutImageView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184F33962404EBE800F078F5 /* ZoomInZoomOutImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomInZoomOutImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F33992404EBE800F078F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184F339B2404EBE800F078F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		184F339D2404EBE800F078F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184F33A02404EBE800F078F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184F33A22404EBEA00F078F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184F33A52404EBEA00F078F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184F33A72404EBEA00F078F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F33AC2404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomInZoomOutImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F33B02404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInZoomOutImageViewTests.swift; sourceTree = "<group>"; };
+		184F33B22404EBEA00F078F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F33B72404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomInZoomOutImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184F33BB2404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomInZoomOutImageViewUITests.swift; sourceTree = "<group>"; };
+		184F33BD2404EBEA00F078F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F33C92404EE4100F078F5 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		184F33CD2404FD2100F078F5 /* GSImageViewerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSImageViewerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184F33932404EBE800F078F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F33A92404EBEA00F078F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F33B42404EBEA00F078F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184F338D2404EBE800F078F5 = {
+			isa = PBXGroup;
+			children = (
+				184F33982404EBE800F078F5 /* ZoomInZoomOutImageView */,
+				184F33AF2404EBEA00F078F5 /* ZoomInZoomOutImageViewTests */,
+				184F33BA2404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests */,
+				184F33972404EBE800F078F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184F33972404EBE800F078F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184F33962404EBE800F078F5 /* ZoomInZoomOutImageView.app */,
+				184F33AC2404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.xctest */,
+				184F33B72404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184F33982404EBE800F078F5 /* ZoomInZoomOutImageView */ = {
+			isa = PBXGroup;
+			children = (
+				184F33992404EBE800F078F5 /* AppDelegate.swift */,
+				184F339B2404EBE800F078F5 /* SceneDelegate.swift */,
+				184F339D2404EBE800F078F5 /* ViewController.swift */,
+				184F33CD2404FD2100F078F5 /* GSImageViewerController.swift */,
+				184F339F2404EBE800F078F5 /* Main.storyboard */,
+				184F33C92404EE4100F078F5 /* CollectionViewCell.swift */,
+				184F33A22404EBEA00F078F5 /* Assets.xcassets */,
+				184F33A42404EBEA00F078F5 /* LaunchScreen.storyboard */,
+				184F33A72404EBEA00F078F5 /* Info.plist */,
+			);
+			path = ZoomInZoomOutImageView;
+			sourceTree = "<group>";
+		};
+		184F33AF2404EBEA00F078F5 /* ZoomInZoomOutImageViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				184F33B02404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.swift */,
+				184F33B22404EBEA00F078F5 /* Info.plist */,
+			);
+			path = ZoomInZoomOutImageViewTests;
+			sourceTree = "<group>";
+		};
+		184F33BA2404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				184F33BB2404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.swift */,
+				184F33BD2404EBEA00F078F5 /* Info.plist */,
+			);
+			path = ZoomInZoomOutImageViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184F33952404EBE800F078F5 /* ZoomInZoomOutImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F33C02404EBEA00F078F5 /* Build configuration list for PBXNativeTarget "ZoomInZoomOutImageView" */;
+			buildPhases = (
+				184F33922404EBE800F078F5 /* Sources */,
+				184F33932404EBE800F078F5 /* Frameworks */,
+				184F33942404EBE800F078F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomInZoomOutImageView;
+			productName = ZoomInZoomOutImageView;
+			productReference = 184F33962404EBE800F078F5 /* ZoomInZoomOutImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184F33AB2404EBEA00F078F5 /* ZoomInZoomOutImageViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F33C32404EBEA00F078F5 /* Build configuration list for PBXNativeTarget "ZoomInZoomOutImageViewTests" */;
+			buildPhases = (
+				184F33A82404EBEA00F078F5 /* Sources */,
+				184F33A92404EBEA00F078F5 /* Frameworks */,
+				184F33AA2404EBEA00F078F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184F33AE2404EBEA00F078F5 /* PBXTargetDependency */,
+			);
+			name = ZoomInZoomOutImageViewTests;
+			productName = ZoomInZoomOutImageViewTests;
+			productReference = 184F33AC2404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184F33B62404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184F33C62404EBEA00F078F5 /* Build configuration list for PBXNativeTarget "ZoomInZoomOutImageViewUITests" */;
+			buildPhases = (
+				184F33B32404EBEA00F078F5 /* Sources */,
+				184F33B42404EBEA00F078F5 /* Frameworks */,
+				184F33B52404EBEA00F078F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184F33B92404EBEA00F078F5 /* PBXTargetDependency */,
+			);
+			name = ZoomInZoomOutImageViewUITests;
+			productName = ZoomInZoomOutImageViewUITests;
+			productReference = 184F33B72404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184F338E2404EBE800F078F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apple MacBook Pro ";
+				TargetAttributes = {
+					184F33952404EBE800F078F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					184F33AB2404EBEA00F078F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184F33952404EBE800F078F5;
+					};
+					184F33B62404EBEA00F078F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 184F33952404EBE800F078F5;
+					};
+				};
+			};
+			buildConfigurationList = 184F33912404EBE800F078F5 /* Build configuration list for PBXProject "ZoomInZoomOutImageView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184F338D2404EBE800F078F5;
+			productRefGroup = 184F33972404EBE800F078F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184F33952404EBE800F078F5 /* ZoomInZoomOutImageView */,
+				184F33AB2404EBEA00F078F5 /* ZoomInZoomOutImageViewTests */,
+				184F33B62404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184F33942404EBE800F078F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F33A62404EBEA00F078F5 /* LaunchScreen.storyboard in Resources */,
+				184F33A32404EBEA00F078F5 /* Assets.xcassets in Resources */,
+				184F33A12404EBE800F078F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F33AA2404EBEA00F078F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F33B52404EBEA00F078F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184F33922404EBE800F078F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F339E2404EBE800F078F5 /* ViewController.swift in Sources */,
+				184F33CE2404FD2100F078F5 /* GSImageViewerController.swift in Sources */,
+				184F339A2404EBE800F078F5 /* AppDelegate.swift in Sources */,
+				184F33CA2404EE4100F078F5 /* CollectionViewCell.swift in Sources */,
+				184F339C2404EBE800F078F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F33A82404EBEA00F078F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F33B12404EBEA00F078F5 /* ZoomInZoomOutImageViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184F33B32404EBEA00F078F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184F33BC2404EBEA00F078F5 /* ZoomInZoomOutImageViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184F33AE2404EBEA00F078F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184F33952404EBE800F078F5 /* ZoomInZoomOutImageView */;
+			targetProxy = 184F33AD2404EBEA00F078F5 /* PBXContainerItemProxy */;
+		};
+		184F33B92404EBEA00F078F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184F33952404EBE800F078F5 /* ZoomInZoomOutImageView */;
+			targetProxy = 184F33B82404EBEA00F078F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184F339F2404EBE800F078F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184F33A02404EBE800F078F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184F33A42404EBEA00F078F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184F33A52404EBEA00F078F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184F33BE2404EBEA00F078F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184F33BF2404EBEA00F078F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184F33C12404EBEA00F078F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomInZoomOutImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.ZoomInZoomOutImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184F33C22404EBEA00F078F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomInZoomOutImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.ZoomInZoomOutImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184F33C42404EBEA00F078F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomInZoomOutImageViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.ZoomInZoomOutImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomInZoomOutImageView.app/ZoomInZoomOutImageView";
+			};
+			name = Debug;
+		};
+		184F33C52404EBEA00F078F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomInZoomOutImageViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.ZoomInZoomOutImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomInZoomOutImageView.app/ZoomInZoomOutImageView";
+			};
+			name = Release;
+		};
+		184F33C72404EBEA00F078F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomInZoomOutImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.ZoomInZoomOutImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoomInZoomOutImageView;
+			};
+			name = Debug;
+		};
+		184F33C82404EBEA00F078F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomInZoomOutImageViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = appView.ZoomInZoomOutImageViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoomInZoomOutImageView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184F33912404EBE800F078F5 /* Build configuration list for PBXProject "ZoomInZoomOutImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F33BE2404EBEA00F078F5 /* Debug */,
+				184F33BF2404EBEA00F078F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F33C02404EBEA00F078F5 /* Build configuration list for PBXNativeTarget "ZoomInZoomOutImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F33C12404EBEA00F078F5 /* Debug */,
+				184F33C22404EBEA00F078F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F33C32404EBEA00F078F5 /* Build configuration list for PBXNativeTarget "ZoomInZoomOutImageViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F33C42404EBEA00F078F5 /* Debug */,
+				184F33C52404EBEA00F078F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184F33C62404EBEA00F078F5 /* Build configuration list for PBXNativeTarget "ZoomInZoomOutImageViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184F33C72404EBEA00F078F5 /* Debug */,
+				184F33C82404EBEA00F078F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184F338E2404EBE800F078F5 /* Project object */;
+}
